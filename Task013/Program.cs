@@ -12,6 +12,6 @@ if (number/100 < 1)
 }
 else
 {
-    string num = Convert.ToString(number);
-    Console.WriteLine(num[2]);
+    int num = number / 100 % 10;
+    Console.WriteLine(num);
 }
